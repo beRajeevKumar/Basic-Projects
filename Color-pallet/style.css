@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  min-height: 100vh;
+}
+p {
+  font-size: 3.2rem;
+}
+button {
+  border: none;
+  background-color: white;
+  font-size: 1.6rem;
+  border: 1px solid #888;
+  border-radius: 1.2rem;
+  padding: 1rem;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0.5rem 0.5rem 1rem 0 #222;
+}
+button:active {
+  transform: scale(1);
+  box-shadow: none;
+}
