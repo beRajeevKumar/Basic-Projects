@@ -54,6 +54,11 @@ body {
   border: 1px solid #333;
   cursor: pointer;
   color: #162050;
+  transition: all 0.4s ease-in-out;
+}
+.btn:hover {
+  background-color: #222;
+  color: #fff;
 }
 *:focus {
   outline: none;
@@ -73,6 +78,7 @@ body {
   color: #fff;
   font-size: 1.6rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .hidden {
